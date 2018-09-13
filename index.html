@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Objects Array</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+
+
+    <form action="" class="form" id="form">
+
+        <label for="payment">Payment:</label>
+        <input type="text" name="payment" id="payment" class="payment">
+        <br><br>
+        
+        <label for="datePayment">Date Payment:</label>
+        
+        <input type="text" name="datePayment" id="datePayment" class="datePayment">
+        <br><br>
+        
+        <button type="button" id="button" class="btn">Save Income</button>
+        <button type="button" id="buttonEdit" class="btn">Edit Income</button>
+  </form>
+  
+  <div class="showPayment">
+      <ul class="payments__list" id="payments__list">
+
+        <div class="expenses" id="expenses">
+                <ul class="expensesList" id="expensesList">
+
+
+                </ul>
+                 <form action="" class="expenses__form" id="expenses__form">
+                     <label for="expensesName">Expense:</label> 
+                    <input type="text" name="expensesName" id="expensesName" class="expenses__form--name">
+                    <label for="expensesAmount">Amount</label>
+                    <input type="text" name="expensesAmount" id="expensesAmount" class="expenses__form--amount">
+                    
+                    <button class="btn expenses__form--buttonSave">Save Expense</button>
+                </form>
+        </div>
+      </ul>
+  </div>
+<script src="main.js"></script>
+</body>
+</html>
